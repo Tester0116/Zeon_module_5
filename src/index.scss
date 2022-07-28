@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  hyphens: auto;
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+    width: 1.1rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #a8bbbf;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+}
+
+:root {
+  font-size: calc(0.5vw + 10px);
+}
+
+/* base styles */
+body {
+  text-align: center;
+  overflow: overlay;
+  font-family: Raleway, sans-serif;
+  font-size: 1.5em;
+  background: #1b1523;
+  color: #fff;
+}
